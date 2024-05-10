@@ -2,6 +2,7 @@
 """ return the floor of a float number """
 import math
 
+
 def floor(a: float) -> int:
     """
     This function return the floor of a float number
