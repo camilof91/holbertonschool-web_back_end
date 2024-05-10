@@ -1,16 +1,18 @@
 #!/usr/bin/env python3
-""" Sum two float numbers """
+""" Sum list numbers """
 
 
-def sum_list(input_list: list[float]) -> float:
-    """
-    This function adds two floats and returns the sum.
+def sum_list(input_list: float) -> float:
+    """Calculates the sum of a list of floats.
+
     Args:
-      a: The first float number.
-      b: The second float numb  er.
+        input_list: A list of floating-point numbers.
+
     Returns:
-      The sum of a and b.
+        float: The sum of all elements in the list.
     """
-    a:float = 0.0
-    for i in input_list: a += i
-    return a
+    total = 0.0
+    for num in input_list:
+        total += num
+
+    return total
