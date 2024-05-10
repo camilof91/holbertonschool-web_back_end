@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-''' Sum two float numbers '''
+""" Sum two float numbers """
 
-def add(a: float , b: float)->float:
+
+def add(a: float, b: float) -> float:
     """
     This function adds two floats and returns the sum.
     Args:
