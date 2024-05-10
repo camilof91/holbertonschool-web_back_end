@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """ Sum list numbers """
-from typing import List
+from typing import List, float
 
 
 def sum_list(input_list: float) -> float:
