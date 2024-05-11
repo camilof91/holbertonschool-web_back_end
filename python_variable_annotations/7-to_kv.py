@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """ Sum list numbers """
-from typing import List, Union
+from typing import Tuple, Union
 
 
 def sto_kv(k: str, v: Union[int, float]) -> tuple[str, float]:
