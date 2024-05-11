@@ -3,7 +3,7 @@
 from typing import Tuple, Union
 
 
-def sto_kv(k: str, v: Union[int, float]) -> tuple[str, float]:
+def sto_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
     """Calculates the sum of a list of floats.
 
     Args:
