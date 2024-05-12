@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-""" """
+"""This coroutine spawns n concurrent tasks of the wait_random coroutine"""
 from typing import List
 import asyncio
 
