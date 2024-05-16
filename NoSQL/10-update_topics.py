@@ -6,13 +6,16 @@ import pymongo
 
 def update_topics(mongo_collection, name, topics):
   """
-  Updates the "topics" field for all documents in the provided pymongo collection object
+  Updates the "topics" field for all documents in the 
+  provided pymongo collection object
   that match the specified "name".
 
   Args:
-      mongo_collection (pymongo.collection.Collection): The pymongo collection object.
+      mongo_collection (pymongo.collection.Collection): 
+      The pymongo collection object.
       name (str): The name of the school document to update.
-      topics (list): The new list of topics to set for the matching documents.
+      topics (list): The new list of 
+      topics to set for the matching documents.
 
   Returns:
       int: The number of documents that were updated.
