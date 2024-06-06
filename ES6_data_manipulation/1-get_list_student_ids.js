@@ -6,4 +6,3 @@ export default function getListStudentIds(students) {
   studentList = students.map((student) => student.id);
   return studentList;
 }
-
