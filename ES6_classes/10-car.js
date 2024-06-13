@@ -3,9 +3,10 @@ export default class Car {
   // Create objs
     this._brand = brand;
     this._motor = motor;
-      this._color = color;
+    this._color = color;
   }
-// Methods
+  // Methods
+
   cloneCar() {
     const NewObj = this.constructor[Symbol.species] || this.constructor;
     const clone = new NewObj();
